@@ -25,13 +25,16 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className=" input-group mb-3">
         <input
           type="search"
+          placeholder="Search for something..."
           onChange={updateKeyword}
           className="form-control"
         />
-        <input type="submit" value="Search" className="btn btn-primary" />
+        <button type="submit" value="Search" className="btn btn-primary">
+          Search
+        </button>
       </form>
       <Results results={results} />
     </div>
