@@ -1,3 +1,20 @@
 .Dictionary {
   margin: 30px;
 }
+
+.Dictionary section {
+  background: white;
+  margin: 0 auto 30px auto;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgb(0, 13, 29, 0.2);
+  border-radius: 8px;
+}
+
+.Dictionary label {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
+}
