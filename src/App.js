@@ -10,7 +10,12 @@ function App() {
         </header>
         <Dictionary defaultKeyword="sunset" />
         <footer className="footer">
-          Coded by <strong>Wiebke Richter</strong> with ❤️
+          Coded by <strong>Wiebke Richter</strong> with ❤️, open-sourced on{" "}
+          <a href="https://github.com/wiebkerichter/dictionary-react-wr">
+            GitHub
+          </a>{" "}
+          and hostet on{" "}
+          <a href="https://dictionary-react-wr.netlify.app/">Netlify</a>
         </footer>
       </div>
     </div>
